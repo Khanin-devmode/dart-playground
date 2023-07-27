@@ -8,7 +8,7 @@ void main() {
   final Restaurant restaurant1 = Restaurant(
     name: 'Pizza Company',
     cuisine: 'Pizzeria',
-    ratings: [],
+    ratings: [1.0970, 5.874, 2.6],
   );
   print(restaurant1.ratingCount);
   print(restaurant1.averageRating.toStringAsFixed(2));
